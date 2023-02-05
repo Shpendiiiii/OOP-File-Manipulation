@@ -1,0 +1,11 @@
+Found desired string in line: I'm a woman
+Found desired string in line: Phenomenal woman,
+Found desired string in line: I'm a woman
+Found desired string in line: Phenomenal woman,
+Found desired string in line: I'm a woman
+Found desired string in line: Phenomenal woman,
+Found desired string in line: 'Cause I'm a woman
+Found desired string in line: Phenomenal woman,
+
+
+Found your word: woman, 8 times
