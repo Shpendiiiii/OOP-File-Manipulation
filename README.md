@@ -58,9 +58,15 @@ This is how you use it:
 LongestLineLetter test = new LongestLineLetter("Texts/input.txt","output2");
 test.searchForLetter("S");
 ```
-
-
 The results will appear in the terminal
+
+### GetKbFolder
+
+Provides three methods to process a given folder:
+
+1. `getFolderSize()` - calculates the total size of all files in the folder, in kilobytes, and outputs the result to the console.
+2. `fileTypeGetSize(String fileType)` - calculates the total size of all files in the folder with the specified file extension (passed as fileType) and outputs the result to the console.
+3. `countFiles()` - counts the number of files in the folder and outputs the result to the console.
 
 ## Expertise
 The code shows expertise in:
