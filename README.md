@@ -60,7 +60,7 @@ test.searchForLetter("S");
 ```
 The results will appear in the terminal
 
-### GetKbFolder
+### GetKbForFolder
 
 Provides three methods to process a given folder:
 
