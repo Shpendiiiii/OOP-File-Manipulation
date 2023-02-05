@@ -47,6 +47,19 @@ ountLines test = new CountLines("Texts\\input.txt", "Texts\\Outputs\\myfile.txt"
 test.countLines("woman");
 ```
 
+### LongestLineLetter
+
+This code is a Java class that implements a method to search for a specific character in a text file, determine the line
+in which it appears with the longest length, and then write this information to a new file in the "Texts/Outputs"
+directory. The input file and output file names are provided as arguments to the constructor.
+This is how you use it:
+
+```java
+LongestLineLetter test=new LongestLineLetter("Texts/input.txt","output2");
+test.searchForLetter("S");
+```
+
+
 The results will appear in the terminal
 
 ## Expertise
