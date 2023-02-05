@@ -35,7 +35,7 @@ public class LineWithoutLetter {
             System.out.println("Error " + e.getMessage());
         }
 
-        return "File name : " + input + ", length is: " + length + ", line is: " + actual;
+        return "File name : " + input + "\nlength is: " + length + "\nline is: " + actual;
     }
     public void writeToFile(String fileName, String info){
         try {
