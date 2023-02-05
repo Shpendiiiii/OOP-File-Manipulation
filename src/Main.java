@@ -10,6 +10,10 @@ class Main {
         
 //        LongestLineLetter test = new LongestLineLetter("Texts/input.txt", "shpend2");
 //        test.searchForLetter("S");
+        
+//        GetKbForFolder test1 = new GetKbForFolder("Texts");
+//        test1.getFolderSize();
+//        test1.fileTypeGetSize("pdf");
 
 
     }
