@@ -5,14 +5,15 @@ import java.io.File;
 import java.io.FileFilter;
 
 // will return the size in kilobytes for a given folder
-public class GetKbForFile {
+public class GetKbForFolder {
 
-    private String folderName;
-    public GetKbForFile(String folderName) {
+    private final String folderName;
+
+    public GetKbForFolder(String folderName) {
         this.folderName = folderName;
     }
 
-    public void getFolderSize(){
+    public void getFolderSize() {
         double sizeInBytes = 0;
 
         File dir = new File(folderName);
@@ -20,14 +21,14 @@ public class GetKbForFile {
         File[] files = dir.listFiles();
 
         for (File file : files
-             ) {
+        ) {
             sizeInBytes += file.length();
         }
         sizeInBytes = sizeInBytes / 1024;
-        System.out.println(sizeInBytes);
+        System.out.println("File size is " + sizeInBytes + " KB");
     }
 
-    public void fileTypeGetSize(String fileType){
+    public void fileTypeGetSize(String fileType) {
         double sizeInBytes = 0;
 
         File dir = new File(folderName);
@@ -48,5 +49,18 @@ public class GetKbForFile {
         }
         sizeInBytes = sizeInBytes / 1024;
         System.out.println("File size is " + sizeInBytes + " KB");
+    }
+
+    public void countFiles() {
+        int count = 0;
+
+        File dir = new File(folderName);
+
+        File[] files = dir.listFiles();
+        for (File file : files
+        ) {
+            count++;
+        }
+        System.out.println("There are " + count + " files" + " in the folder " + folderName);
     }
 }
