@@ -15,7 +15,7 @@ the `objectName.longestNonLetterLine("B")` where **B** is your chosen letter.
 
 As such: 
 
-if you are using Ubuntu replace the double backslashes with a single slash
+If you are using Linux replace the double backslashes with a single slash
 ```java
 LineWithoutLetter test = new LineWithoutLetter("Texts\\anotherExample.txt");
 
