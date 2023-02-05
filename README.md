@@ -55,7 +55,7 @@ directory. The input file and output file names are provided as arguments to the
 This is how you use it:
 
 ```java
-LongestLineLetter test=new LongestLineLetter("Texts/input.txt","output2");
+LongestLineLetter test = new LongestLineLetter("Texts/input.txt","output2");
 test.searchForLetter("S");
 ```
 
